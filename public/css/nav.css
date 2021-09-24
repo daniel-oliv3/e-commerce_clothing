@@ -66,3 +66,34 @@
     color: #a9a9a9;
 }
 
+.nav-items a {
+    margin-left: 20px;
+}
+
+.nav-items a img {
+    width: 30px;
+}
+
+.links-container {
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+}
+
+.link {
+    text-transform: capitalize;
+    padding: 0 5px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #383838;
+    opacity: 0.5s;
+    transition: .5s;
+}
+
+.link:hover {
+    opacity: 1;
+}
+
