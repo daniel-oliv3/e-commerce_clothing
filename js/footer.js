@@ -49,7 +49,7 @@ const createFooter = () => {
     <p class="info">Telefone:  +55 (92) 5555-5555</p>
     <div class="footer-social-container">
         <div>
-            <a href="#" class="social-link">Termos e serviços</a>
+            <a href="#" class="social-link">Termos & serviços</a>
             <a href="#" class="social-link">Página de privacidade</a>
         </div>
         <div>
