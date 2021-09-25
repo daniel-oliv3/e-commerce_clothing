@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos - </title>
+    <title>Clothing - Produtos</title>
     <link rel="stylesheet" href="public/css/home.css">
     <link rel="stylesheet" href="public/css/product.css">
 </head>
 <body>
 
     <nav class="navbar"></nav>
+
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="public/img/product image 1.png" class="active" alt="">
+                <img src="public/img/product image 2.png" alt="">
+                <img src="public/img/product image 3.png" alt="">
+                <img src="public/img/product image 4.png" alt="">
+            </div>
+        </div>
+        <div class="details">
+            <h2 class="product-brand">Calvin Klein</h2>
+            <p class="product-short-des">Quem num gosta di mim que vai caçá sua turmis! Suco de cevadiss, é um leite divinis.</p>
+            <span class="product-price">$99</span>
+            <span class="product-actual-price">$200</span>
+            <span class="product-discount">( 50% Off)</span>
+
+            <p class="product-sub-heading">Selecione o tamanho</p>
+
+            <input type="radio" name="size" value="p"  cheched hidden id="p-size">
+            <label for="p-size" class="size-radio-btn check">P</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">M</label>
+            <input type="radio" name="size" value="g" hidden id="g-size">
+            <label for="g-size" class="size-radio-btn">G</label>
+            <input type="radio" name="size" value="gg" hidden id="gg-size">
+            <label for="gg-size" class="size-radio-btn">GG</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">XL</label>
+
+            <button class="btn cart-btn">Adicionar ao carrinho</button>
+            <button class="btn">Adicionar a lista de desejos</button>
+        </div>
+    </section>
 
     <!-- Cards-Container -->
     <section class="product">
