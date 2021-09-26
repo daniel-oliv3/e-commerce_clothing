@@ -19,3 +19,5 @@ Firebase CLI
 Dependência necessária para criptografar as senhas salvas no banco de dados
 ### npm install bcryptjs
 
+Todas as dependências a cima em uma unica linha de comando.
+### npm i express.js nodemon firebase-admin bcrypt
