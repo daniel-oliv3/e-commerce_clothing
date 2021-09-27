@@ -3,3 +3,120 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    font-family: 'roboto', sans-serif;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    display: none;
+}
+
+.logo {
+    height: 80px;
+    display: block;
+    margin: 0 auto 50px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    display: block;
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #383838;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
+    font-family: 'roboto', sans-serif;
+}
+
+::placeholder {
+    color: #383838;
+}
+
+.submit-btn {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #383838;
+    color: #fff;
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 30px 0;
+}
+
+/*CheckBox Styles*/
+.checkbox {
+    -webkit-appearance: none;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid #383838;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background: #383838;
+}
+
+.checkbox::after {
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 100%;
+    pointer-events: none;
+    background-image: url(../img/check.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.checkbox:checked::after {
+    display: block;
+}
+
+label{
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #383838;
+}
+
+label a {
+    color: #383838;
+}
+
+.link {
+    color: #383838;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+}
