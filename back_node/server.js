@@ -19,6 +19,11 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(staticPath, "index.html"));
 })
 
+// Rota Inscrição
+app.get('/signup', (req, res) => {
+    res.sendFile(path.join(staticPath, "signup.html"));
+})
+
 // Rota 404
 app.get('/404', (req, res) => {
     res.sendFile(path.join(staticPath, "404.html"));
