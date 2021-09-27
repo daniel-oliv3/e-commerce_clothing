@@ -9,8 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
+    "express.js": "^1.0.0",
+    "firebase-admin": "^9.11.1",
     "firebase-tools": "^9.18.0"
   },
   "devDependencies": {

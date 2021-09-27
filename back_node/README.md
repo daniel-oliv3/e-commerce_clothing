@@ -11,7 +11,7 @@ Globalmente
 ### npm install –g nodemon
 
 No Projeto 
-### npm install –save-dev nodemon
+### npm install -–save-dev nodemon
 
 Firebase CLI 
 ### npm install -–g firebase-tools
@@ -21,3 +21,6 @@ Dependência necessária para criptografar as senhas salvas no banco de dados
 
 Todas as dependências a cima em uma unica linha de comando.
 ### npm i express.js nodemon firebase-admin bcrypt
+
+Iniciar o projeto
+### npm start
