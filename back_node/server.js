@@ -12,6 +12,7 @@ const app = express();
 
 // Middlewares
 app.use(express.static(staticPath));
+app.use(express.json());
 
 // Rotas
 // Rota Home
@@ -22,6 +23,11 @@ app.get("/", (req, res) => {
 // Rota Inscrição
 app.get('/signup', (req, res) => {
     res.sendFile(path.join(staticPath, "signup.html"));
+})
+
+app.post('/signup', (req, res) => {
+    console.log(req.body);
+    res.json('data recieved');
 })
 
 // Rota 404
